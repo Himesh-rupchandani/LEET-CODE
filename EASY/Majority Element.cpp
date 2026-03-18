@@ -5,7 +5,7 @@ public:
 
         for(int i=0;i<nums.size();i++){
             if(freq == 0)    ans = nums[i];
-            if(ans == freq)  freq++;
+            if(ans == nums[i])  freq++;
             else freq--;
         }
         return ans;
