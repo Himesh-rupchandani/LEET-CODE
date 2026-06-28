@@ -22,7 +22,6 @@ public:
                 if(cnt5<0 || cnt10<0) return false;
             }
         }
-
         return true;
     }
 };
