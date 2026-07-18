@@ -4,28 +4,36 @@
 
 ### *Consistency > Intensity | One Problem a Day Keeps the Bug Away 🐛*
 
-<img src="https://leetcard.jacoblin.cool/Himesh-rupchandani?theme=dark&font=baloo&extension=activity" alt="LeetCode Stats Card" width="500"/>
-
 <br/>
 
----
+<img src="https://leetcard.jacoblin.cool/Himesh-rupchandani?theme=dark&font=baloo&extension=activity" 
+     alt="LeetCode Stats Card" 
+     width="500"/>
+
+<br/><br/>
 
 ![LeetCode](https://img.shields.io/badge/LeetCode-Himesh--rupchandani-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)
 ![Language](https://img.shields.io/badge/Language-C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Solved](https://img.shields.io/badge/Solved-126-success?style=for-the-badge)
-![Rank](https://img.shields.io/badge/Rank-1,312,929-blue?style=for-the-badge)
-![Streak](https://img.shields.io/badge/Max%20Streak-74🔥-orange?style=for-the-badge)
+
+![Total Solved](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Himesh-rupchandani/LEET-CODE/main/.github/workflows/leetcode-stats.json&query=$.total_solved&label=Solved&color=success&style=for-the-badge&logo=leetcode)
+![Rank](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Himesh-rupchandani/LEET-CODE/main/.github/workflows/leetcode-stats.json&query=$.ranking&label=Rank&color=blue&style=for-the-badge)
+![Streak](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Himesh-rupchandani/LEET-CODE/main/.github/workflows/leetcode-stats.json&query=$.streak&label=Max%20Streak%20🔥&color=orange&style=for-the-badge)
+![Active Days](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Himesh-rupchandani/LEET-CODE/main/.github/workflows/leetcode-stats.json&query=$.active_days&label=Active%20Days&color=blueviolet&style=for-the-badge)
+
+![Easy](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Himesh-rupchandani/LEET-CODE/main/.github/workflows/leetcode-stats.json&query=$.easy_solved&label=Easy&color=brightgreen&style=for-the-badge)
+![Medium](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Himesh-rupchandani/LEET-CODE/main/.github/workflows/leetcode-stats.json&query=$.medium_solved&label=Medium&color=yellow&style=for-the-badge)
+![Hard](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Himesh-rupchandani/LEET-CODE/main/.github/workflows/leetcode-stats.json&query=$.hard_solved&label=Hard&color=red&style=for-the-badge)
 
 </div>
 
 ---
 
-## 👨💻 About This Repository
+## 👨‍💻 About This Repository
 
-This repository contains my **LeetCode problem solutions written in C++**, organized by difficulty and topic. Every solution focuses on **clean code**, **optimal approaches**, and **interview-ready patterns**.
+This repository contains my **LeetCode problem solutions written in C++**, organized by difficulty. Every solution focuses on **clean code**, **optimal approaches**, and **interview-ready patterns**.
 
 | 📌 Detail | ℹ️ Info |
-|-----------|---------|
+|:----------|:--------|
 | 👤 **Name** | Himesh Rupchandani |
 | 🎓 **Student** | AI & Data Science @ Marwadi University, Rajkot |
 | 🌍 **Location** | India |
@@ -33,23 +41,7 @@ This repository contains my **LeetCode problem solutions written in C++**, organ
 | 🎯 **Focus** | DSA, Problem Solving, Interview Prep |
 | 💼 **Looking For** | SDE / Data Science Internships |
 
----
-
-## 📊 My LeetCode Stats
-
-| Metric | Value |
-|:------:|:-----:|
-| ✅ **Total Solved** | **126 / 3991** |
-| 🟢 **Easy** | 109 / 954 |
-| 🟡 **Medium** | 17 / 2084 |
-| 🔴 **Hard** | 0 / 953 |
-| 📝 **Submissions (Past Year)** | 216 |
-| 📆 **Active Days** | 89 |
-| 🔥 **Max Streak** | 74 |
-| 🏆 **Badges** | 50 Days Badge 2026 |
-| ⭐ **Reputation** | 100 |
-| 👁️ **Profile Views** | 3.3K+ |
-| 💡 **Solutions Posted** | 78 |
+> 🤖 **The badges above update automatically every day** via GitHub Actions pulling live data from my LeetCode profile.
 
 ---
 
@@ -58,67 +50,33 @@ This repository contains my **LeetCode problem solutions written in C++**, organ
 ```
 LEET-CODE/
 │
-├── 📂 EASY/                 # 109+ Beginner-friendly problems
-│   ├── 0001_Two_Sum.cpp
-│   ├── 0009_Palindrome_Number.cpp
-│   └── ...
-│
-├── 📂 MEDIUM/               # 17+ Interview-level problems
-│   ├── 0015_Three_Sum.cpp
-│   ├── 0011_Container_With_Most_Water.cpp
-│   └── ...
-│
+├── 📂 EASY/                 # Beginner-friendly problems
+├── 📂 MEDIUM/               # Interview-level problems
 ├── 📂 HARD/                 # 🎯 Coming Soon
-│
 └── 📄 README.md
 ```
 
 ---
 
-## 🗂️ Solution Template
-
-Every `.cpp` file in this repo follows a clean, professional format:
+## 🗂️ Solution File Template
 
 ```cpp
-/**
- * ============================================
- * Problem : 15. 3Sum
- * Link    : https://leetcode.com/problems/3sum/
- * Level   : Medium
- * ============================================
- * Approach : Sorting + Two Pointers
- * Time     : O(n^2)
- * Space    : O(1)
- * Beats    : 96.92%
- * ============================================
- */
-
-#include <bits/stdc++.h>
-using namespace std;
 
 class Solution {
 public:
-    // Your optimized solution here
+    // Solution here
 };
 ```
 
 ---
 
-## 🧠 Topics & Skills Mastered
+## 🧠 Topics & Skills
 
 ### 🔥 Advanced
-- Dynamic Programming
-- Divide and Conquer
-- Game Theory
+- Dynamic Programming • Divide and Conquer • Game Theory
 
 ### ⚡ Intermediate
-- Math
-- Hash Table
-- Two Pointers
-- Sorting
-- Greedy
-- String Manipulation
-- Prefix Sum / GCD
+- Math • Hash Table • Two Pointers • Sorting • Greedy • String Manipulation • Prefix Sum / GCD
 
 ---
 
@@ -141,46 +99,31 @@ Graphs            ███░░░░░░░░░░░░░░░░░  
 
 ## 🚀 Recent Solutions
 
-| # | Problem | Approach |
-|---|---------|----------|
-| 1 | Number of Elapsed Seconds Between Two Times | String Parsing |
-| 2 | Find Greatest Common Divisor of Array | GCD Approach |
-| 3 | Sum of GCD of Formed Pairs | Prefix GCD + Sorting |
-| 4 | Maximum 69 Number | String Manipulation |
-| 5 | Sort the People | Selection Sort |
-| 6 | Sequential Digits | One For Loop (100% Beats) |
-| 7 | Intersection of Two Arrays | Sorting + Two Pointers |
-| 8 | 3Sum | Two Pointers (96.92% Beats) |
-| 9 | Container With Most Water | Two Pointers + Greedy |
-| 10 | Sort Array By Parity II | Two Pointers |
-| 11 | Merge Sorted Array | Clean Merge + Sort |
+<!--START_SECTION:recent-solutions-->
+<!--END_SECTION:recent-solutions-->
 
 ---
 
 ## 🎯 Roadmap & Goals
 
-- [x] Solve 100+ Easy problems ✅
-- [x] Earn **50 Days Badge 2026** 🏆
-- [x] Maintain 74-day streak 🔥
-- [ ] Solve 150+ Easy problems
-- [ ] Solve 50+ Medium problems
-- [ ] Solve first Hard problem 🔴
-- [ ] Master Dynamic Programming
-- [ ] Add topic-wise folders
-- [ ] Reach 500+ total solved
+- [x] 🎯 Start LeetCode Journey (March 2026)
+- [x] ✅ Solve 100+ Easy problems
+- [x] ✅ Solve 15+ Medium problems
+- [x] 🏆 Earn 50 Days Badge 2026
+- [x] 🔥 Maintain 70+ day streak
+- [ ] 📈 Solve 150+ Easy problems
+- [ ] 📈 Solve 50+ Medium problems
+- [ ] 🔴 Solve first Hard problem
+- [ ] 🧠 Master Dynamic Programming
+- [ ] 🚀 Reach 500+ total solved
 
 ---
 
 ## 🚀 How to Use
 
-**Clone the repository:**
 ```bash
 git clone https://github.com/Himesh-rupchandani/LEET-CODE.git
 cd LEET-CODE
-```
-
-**Compile & run any solution:**
-```bash
 g++ -std=c++17 -o solution EASY/0001_Two_Sum.cpp
 ./solution
 ```
@@ -193,7 +136,7 @@ g++ -std=c++17 -o solution EASY/0001_Two_Sum.cpp
 
 [![LeetCode](https://img.shields.io/badge/LeetCode-Himesh--rupchandani-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/Himesh-rupchandani/)
 [![GitHub](https://img.shields.io/badge/GitHub-Himesh--rupchandani-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Himesh-rupchandani)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-himesh--rupchandani-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/himesh-rupchandani-1049bb377)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Himesh--rupchandani-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/himesh-rupchandani-1049bb377)
 
 </div>
 
@@ -201,7 +144,7 @@ g++ -std=c++17 -o solution EASY/0001_Two_Sum.cpp
 
 <div align="center">
 
-### ⭐ If this repo helped you, don't forget to STAR it!
+### ⭐ If this repo helped you, please STAR it!
 
 ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=Himesh-rupchandani.LEET-CODE)
 
