@@ -64,7 +64,7 @@ def fetch_stats():
         script_dir = os.path.dirname(os.path.abspath(__file__))
         json_path = "leetcode-stats.json" 
         
-        with open(json_path, "w") as f:
+        with open("leetcode-stats.json", "w") as f:
             json.dump(stats, f, indent=2)
 
         print("✅ SUCCESS!")
