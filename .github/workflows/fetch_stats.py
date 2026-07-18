@@ -62,7 +62,7 @@ def fetch_stats():
 
         # Save to same folder as this script (.github/workflows/)
         script_dir = os.path.dirname(os.path.abspath(__file__))
-        json_path = os.path.join(script_dir, "leetcode-stats.json")
+        json_path = "leetcode-stats.json" 
         
         with open(json_path, "w") as f:
             json.dump(stats, f, indent=2)
