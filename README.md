@@ -98,7 +98,13 @@ Graphs            ███░░░░░░░░░░░░░░░░░  
 ---
 
 
+## 🚀 Recent Solutions
+
+<!--START_SECTION:recent-solutions-->
+<!--END_SECTION:recent-solutions-->
+
 ---
+
 
 ## 🎯 Roadmap & Goals
 
