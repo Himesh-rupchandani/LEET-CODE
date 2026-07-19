@@ -233,18 +233,38 @@ def fetch_and_create_dashboard():
 
     calendar = user["userCalendar"] or {}
 
-    stats = {
-        "ranking": user["profile"]["ranking"],
-        "total_solved": solved_data.get("All", 0),
-        "easy_solved": solved_data.get("Easy", 0),
-        "medium_solved": solved_data.get("Medium", 0),
-        "hard_solved": solved_data.get("Hard", 0),
-        "active_days": calendar.get("totalActiveDays", 0),
-        "max_streak": calculate_max_streak(
-            calendar.get("submissionCalendar", "{}")
-        )
-    }
+stats = {
+    "ranking": user["profile"]["ranking"],
+    "total_solved": solved_data.get("All", 0),
+    "easy_solved": solved_data.get("Easy", 0),
+    "medium_solved": solved_data.get("Medium", 0),
+    "hard_solved": solved_data.get("Hard", 0),
+    "active_days": calendar.get("totalActiveDays", 0),
+    "max_streak": calculate_max_streak(
+        calendar.get("submissionCalendar", "{}")
+    )
+}
 
+# Create the assets folder if it does not exist.
+Path("assets").mkdir(exist_ok=True)
+
+# This JSON file is used by your old README badges.
+badge_stats = {
+    "ranking": stats["ranking"],
+    "total_solved": stats["total_solved"],
+    "easy_solved": stats["easy_solved"],
+    "medium_solved": stats["medium_solved"],
+    "hard_solved": stats["hard_solved"],
+    "streak": stats["max_streak"],
+    "active_days": stats["active_days"]
+}
+
+Path("assets/leetcode-stats.json").write_text(
+    json.dumps(badge_stats, indent=2),
+    encoding="utf-8"
+)
+
+create_dashboard_svg(stats)
     create_dashboard_svg(stats)
 
     print("LeetCode dashboard updated successfully.")
