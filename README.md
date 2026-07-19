@@ -12,17 +12,32 @@
 
 <br/><br/>
 
-![LeetCode](https://img.shields.io/badge/LeetCode-Himesh--rupchandani-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)
-![Language](https://img.shields.io/badge/Language-C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+<p align="center">
 
-![Total Solved](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Himesh-rupchandani/LEET-CODE/main/assets/leetcode-stats.json&query=$.total_solved&label=Solved&color=success&style=for-the-badge&logo=leetcode)
-![Rank](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Himesh-rupchandani/LEET-CODE/main/assets/leetcode-stats.json&query=$.ranking&label=Rank&color=blue&style=for-the-badge)
-![Streak](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Himesh-rupchandani/LEET-CODE/main/assets/leetcode-stats.json&query=$.streak&label=Max%20Streak%20🔥&color=orange&style=for-the-badge)
-![Active Days](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Himesh-rupchandani/LEET-CODE/main/assets/leetcode-stats.json&query=$.active_days&label=Active%20Days&color=blueviolet&style=for-the-badge)
+  <img src="https://img.shields.io/badge/LeetCode-Himesh--rupchandani-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode">
 
-![Easy](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Himesh-rupchandani/LEET-CODE/main/assets/leetcode-stats.json&query=$.easy_solved&label=Easy&color=brightgreen&style=for-the-badge)
-![Medium](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Himesh-rupchandani/LEET-CODE/main/assets/leetcode-stats.json&query=$.medium_solved&label=Medium&color=yellow&style=for-the-badge)
-![Hard](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Himesh-rupchandani/LEET-CODE/main/assets/leetcode-stats.json&query=$.hard_solved&label=Hard&color=red&style=for-the-badge)
+  <img src="https://img.shields.io/badge/Language-C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++">
+
+  <br><br>
+
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FHimesh-rupchandani%2FLEET-CODE%2Fmain%2Fassets%2Fleetcode-stats.json&query=%24.total_solved&label=Solved&color=success&style=for-the-badge&logo=leetcode" alt="Total Solved">
+
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FHimesh-rupchandani%2FLEET-CODE%2Fmain%2Fassets%2Fleetcode-stats.json&query=%24.ranking&label=Rank&color=blue&style=for-the-badge" alt="Rank">
+
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FHimesh-rupchandani%2FLEET-CODE%2Fmain%2Fassets%2Fleetcode-stats.json&query=%24.streak&label=Max%20Streak%20%F0%9F%94%A5&color=orange&style=for-the-badge" alt="Maximum Streak">
+
+
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FHimesh-rupchandani%2FLEET-CODE%2Fmain%2Fassets%2Fleetcode-stats.json&query=%24.active_days&label=Active%20Days&color=blueviolet&style=for-the-badge" alt="Total Active Days">
+
+  <br>
+
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FHimesh-rupchandani%2FLEET-CODE%2Fmain%2Fassets%2Fleetcode-stats.json&query=%24.easy_solved&label=Easy&color=brightgreen&style=for-the-badge" alt="Easy Problems">
+
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FHimesh-rupchandani%2FLEET-CODE%2Fmain%2Fassets%2Fleetcode-stats.json&query=%24.medium_solved&label=Medium&color=yellow&style=for-the-badge" alt="Medium Problems">
+
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FHimesh-rupchandani%2FLEET-CODE%2Fmain%2Fassets%2Fleetcode-stats.json&query=%24.hard_solved&label=Hard&color=red&style=for-the-badge" alt="Hard Problems">
+
+</p>
 
 </div>
 
