@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img">
+  <defs>
+    <linearGradient id="orange" x1="0" x2="1">
+      <stop stop-color="#ff7a18"/>
+      <stop offset=".5" stop-color="#ffb000"/>
+      <stop offset="1" stop-color="#ff7a18"/>
+    </linearGradient>
+
+    <linearGradient id="chartFill" x1="0" x2="1">
+      <stop stop-color="#ff7a18" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#ffb000" stop-opacity=".03"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="300" rx="20" fill="#0d1117"/>
+  <rect x="1" y="1" width="898" height="298" rx="19" fill="none" stroke="#30363d"/>
+
+  <text x="34" y="45"
+        font-family="Arial, sans-serif"
+        font-size="23"
+        font-weight="700"
+        fill="#f0f6fc">
+    LEETCODE / CONSISTENCY DASHBOARD
+  </text>
+
+  <text x="34" y="67"
+        font-family="Arial, sans-serif"
+        font-size="13"
+        fill="#8b949e">
+    Himesh Rupchandani · C++ problem-solving journey
+  </text>
+
+  <path d="M28 80H872" stroke="#30363d"/>
+  <path d="M28 80H330" stroke="url(#orange)" stroke-width="2"/>
+
+  <text x="35" y="122"
+        font-family="Arial, sans-serif"
+        font-size="14"
+        fill="#8b949e">
+    PROBLEMS SOLVED
+  </text>
+
+  <text x="35" y="169"
+        font-family="Arial, sans-serif"
+        font-size="45"
+        font-weight="700"
+        fill="#f0f6fc">
+    127
+  </text>
+
+  <text x="35" y="196"
+        font-family="Arial, sans-serif"
+        font-size="13"
+        fill="#ffb000">
+    EASY 110 · MEDIUM 17 · HARD 0
+  </text>
+
+  <text x="35" y="244"
+        font-family="Arial, sans-serif"
+        font-size="13"
+        fill="#8b949e">
+    GLOBAL RANK #1,304,318
+  </text>
+
+  <path d="M322 105V250" stroke="#30363d"/>
+
+  <text x="365" y="122"
+        font-family="Arial, sans-serif"
+        font-size="14"
+        fill="#8b949e">
+    TOTAL ACTIVE DAYS
+  </text>
+
+  <text x="365" y="190"
+        font-family="Arial, sans-serif"
+        font-size="60"
+        font-weight="700"
+        fill="#ffb000">
+    90
+  </text>
+
+  <text x="365" y="218"
+        font-family="Arial, sans-serif"
+        font-size="14"
+        fill="#c9d1d9">
+    days of showing up
+  </text>
+
+  <path d="M590 105V250" stroke="#30363d"/>
+
+  <text x="635" y="122"
+        font-family="Arial, sans-serif"
+        font-size="14"
+        fill="#8b949e">
+    MAX STREAK
+  </text>
+
+  <text x="635" y="190"
+        font-family="Arial, sans-serif"
+        font-size="60"
+        font-weight="700"
+        fill="#ffb000">
+    75
+  </text>
+
+  <text x="635" y="218"
+        font-family="Arial, sans-serif"
+        font-size="14"
+        fill="#c9d1d9">
+    consecutive active days
+  </text>
+
+  <path d="M365 251 C425 230 458 274 515 242 S620 270 690 237 S785 260 860 225"
+        fill="none"
+        stroke="url(#orange)"
+        stroke-width="3"/>
+
+  <path d="M365 251 C425 230 458 274 515 242 S620 270 690 237 S785 260 860 225
+           L860 275 L365 275Z"
+        fill="url(#chartFill)"/>
+</svg>
