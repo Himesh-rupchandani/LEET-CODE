@@ -15,14 +15,14 @@
 ![LeetCode](https://img.shields.io/badge/LeetCode-Himesh--rupchandani-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)
 ![Language](https://img.shields.io/badge/Language-C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 
-![Total Solved](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Himesh-rupchandani/LEET-CODE/main/.github/workflows/leetcode-stats.json&query=$.total_solved&label=Solved&color=success&style=for-the-badge&logo=leetcode)
-![Rank](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Himesh-rupchandani/LEET-CODE/main/.github/workflows/leetcode-stats.json&query=$.ranking&label=Rank&color=blue&style=for-the-badge)
-![Streak](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Himesh-rupchandani/LEET-CODE/main/.github/workflows/leetcode-stats.json&query=$.streak&label=Max%20Streak%20🔥&color=orange&style=for-the-badge)
-![Active Days](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Himesh-rupchandani/LEET-CODE/main/.github/workflows/leetcode-stats.json&query=$.active_days&label=Active%20Days&color=blueviolet&style=for-the-badge)
+![Total Solved](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Himesh-rupchandani/LEET-CODE/main/assets/leetcode-stats.json&query=$.total_solved&label=Solved&color=success&style=for-the-badge&logo=leetcode)
+![Rank](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Himesh-rupchandani/LEET-CODE/main/assets/leetcode-stats.json&query=$.ranking&label=Rank&color=blue&style=for-the-badge)
+![Streak](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Himesh-rupchandani/LEET-CODE/main/assets/leetcode-stats.json&query=$.streak&label=Max%20Streak%20🔥&color=orange&style=for-the-badge)
+![Active Days](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Himesh-rupchandani/LEET-CODE/main/assets/leetcode-stats.json&query=$.active_days&label=Active%20Days&color=blueviolet&style=for-the-badge)
 
-![Easy](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Himesh-rupchandani/LEET-CODE/main/.github/workflows/leetcode-stats.json&query=$.easy_solved&label=Easy&color=brightgreen&style=for-the-badge)
-![Medium](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Himesh-rupchandani/LEET-CODE/main/.github/workflows/leetcode-stats.json&query=$.medium_solved&label=Medium&color=yellow&style=for-the-badge)
-![Hard](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Himesh-rupchandani/LEET-CODE/main/.github/workflows/leetcode-stats.json&query=$.hard_solved&label=Hard&color=red&style=for-the-badge)
+![Easy](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Himesh-rupchandani/LEET-CODE/main/assets/leetcode-stats.json&query=$.easy_solved&label=Easy&color=brightgreen&style=for-the-badge)
+![Medium](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Himesh-rupchandani/LEET-CODE/main/assets/leetcode-stats.json&query=$.medium_solved&label=Medium&color=yellow&style=for-the-badge)
+![Hard](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/Himesh-rupchandani/LEET-CODE/main/assets/leetcode-stats.json&query=$.hard_solved&label=Hard&color=red&style=for-the-badge)
 
 </div>
 
