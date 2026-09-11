@@ -5,7 +5,6 @@ public:
             nums[i] = nums[i]*nums[i];
         }
         sort(nums.begin(),nums.end());
-
         return nums;
     }
 };
