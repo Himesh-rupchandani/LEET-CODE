@@ -1,174 +1,85 @@
-<div align="center">
+# LeetCode Solutions in C++
 
-# 🧠 LeetCode Solutions in C++
-
-### *Consistency > Intensity | One Problem a Day Keeps the Bug Away 🐛*
-
-<br/>
-
-<img src="https://leetcard.jacoblin.cool/Himesh-rupchandani?theme=dark&font=baloo&extension=activity" 
-     alt="LeetCode Stats Card" 
-     width="500"/>
-
-<br/><br/>
+A collection of my **C++ solutions to LeetCode problems**, organised by difficulty. I use this repository to practise problem-solving, strengthen data-structure and algorithm fundamentals, and keep my solutions easy to revisit.
 
 <p align="center">
-
-  <img src="https://img.shields.io/badge/LeetCode-Himesh--rupchandani-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode">
-
-  <img src="https://img.shields.io/badge/Language-C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++">
-
-  <br><br>
-
-  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FHimesh-rupchandani%2FLEET-CODE%2Fmain%2Fassets%2Fleetcode-stats.json&query=%24.total_solved&label=Solved&color=success&style=for-the-badge&logo=leetcode" alt="Total Solved">
-
-  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FHimesh-rupchandani%2FLEET-CODE%2Fmain%2Fassets%2Fleetcode-stats.json&query=%24.ranking&label=Rank&color=blue&style=for-the-badge" alt="Rank">
-
-  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FHimesh-rupchandani%2FLEET-CODE%2Fmain%2Fassets%2Fleetcode-stats.json&query=%24.streak&label=Max%20Streak%20%F0%9F%94%A5&color=orange&style=for-the-badge" alt="Maximum Streak">
-
-
-  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FHimesh-rupchandani%2FLEET-CODE%2Fmain%2Fassets%2Fleetcode-stats.json&query=%24.active_days&label=Active%20Days&color=blueviolet&style=for-the-badge" alt="Total Active Days">
-
-  <br>
-
-  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FHimesh-rupchandani%2FLEET-CODE%2Fmain%2Fassets%2Fleetcode-stats.json&query=%24.easy_solved&label=Easy&color=brightgreen&style=for-the-badge" alt="Easy Problems">
-
-  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FHimesh-rupchandani%2FLEET-CODE%2Fmain%2Fassets%2Fleetcode-stats.json&query=%24.medium_solved&label=Medium&color=yellow&style=for-the-badge" alt="Medium Problems">
-
-  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FHimesh-rupchandani%2FLEET-CODE%2Fmain%2Fassets%2Fleetcode-stats.json&query=%24.hard_solved&label=Hard&color=red&style=for-the-badge" alt="Hard Problems">
-
+  <a href="https://leetcode.com/u/Himesh-rupchandani/">
+    <img src="https://leetcard.jacoblin.cool/Himesh-rupchandani?theme=dark&font=baloo&extension=activity" alt="LeetCode activity card" width="500" />
+  </a>
 </p>
 
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-C%2B%2B-00599C?style=flat&logo=cplusplus&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/Focus-DSA%20%26%20Problem%20Solving-2563EB?style=flat" alt="DSA and problem solving" />
+</p>
 
----
+## Live progress
 
-## 👨‍💻 About This Repository
+The badges below read from [`assets/leetcode-stats.json`](assets/leetcode-stats.json). The file is maintained by the repository's stats workflow, so the numbers can change as the LeetCode profile updates.
 
-This repository contains my **LeetCode problem solutions written in C++**, organized by difficulty. Every solution focuses on **clean code**, **optimal approaches**, and **interview-ready patterns**.
+<p>
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FHimesh-rupchandani%2FLEET-CODE%2Fmain%2Fassets%2Fleetcode-stats.json&query=%24.total_solved&label=Solved&color=success&logo=leetcode" alt="Total solved" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FHimesh-rupchandani%2FLEET-CODE%2Fmain%2Fassets%2Fleetcode-stats.json&query=%24.ranking&label=Rank&color=blue" alt="Rank" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FHimesh-rupchandani%2FLEET-CODE%2Fmain%2Fassets%2Fleetcode-stats.json&query=%24.streak&label=Max%20Streak&color=orange" alt="Maximum streak" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FHimesh-rupchandani%2FLEET-CODE%2Fmain%2Fassets%2Fleetcode-stats.json&query=%24.active_days&label=Active%20Days&color=blueviolet" alt="Active days" />
+</p>
 
-| 📌 Detail | ℹ️ Info |
-|:----------|:--------|
-| 👤 **Name** | Himesh Rupchandani |
-| 🎓 **Student** | AI & Data Science @ Marwadi University, Rajkot |
-| 🌍 **Location** | India |
-| 📅 **LeetCode Journey Started** | **March 2026** |
-| 🎯 **Focus** | DSA, Problem Solving, Interview Prep |
-| 💼 **Looking For** | SDE / Data Science Internships |
+## Repository structure
 
-> 🤖 **The badges above update automatically every day** via GitHub Actions pulling live data from my LeetCode profile.
-
----
-
-## 📁 Repository Structure
-
-```
+```text
 LEET-CODE/
-│
-├── 📂 EASY/                 # Beginner-friendly problems
-├── 📂 MEDIUM/               # Interview-level problems
-├── 📂 HARD/                 # 🎯 Coming Soon
-└── 📄 README.md
+├── EASY/
+├── MEDIUM/
+├── HARD/
+├── assets/
+│   └── leetcode-stats.json
+└── README.md
 ```
 
----
+Solutions are grouped by difficulty. File names identify the problem, and each solution uses the LeetCode-compatible C++ class format.
 
-## 🗂️ Solution File Template
+## Topics I practise
 
-```cpp
+- Arrays and basic problem solving
+- Mathematics and number theory
+- Sorting and greedy techniques
+- Two pointers
+- Hash tables
+- Strings
+- Prefix sums and related array techniques
 
-class Solution {
-public:
-    // Solution here
-};
-```
+This list describes areas represented in my practice, not a claim of mastery.
 
----
+## Compile a solution locally
 
-## 🧠 Topics & Skills
-
-### 🔥 Advanced
-- Dynamic Programming • Divide and Conquer • Game Theory
-
-### ⚡ Intermediate
-- Math • Hash Table • Two Pointers • Sorting • Greedy • String Manipulation • Prefix Sum / GCD
-
----
-
-## 📈 Topic-wise Coverage
-
-```
-Arrays            ████████████████████  Strong   ✅
-Math              ██████████████████░░  Strong   ✅
-Hash Table        ███████████████░░░░░  Good     ✅
-Two Pointers      ██████████████░░░░░░  Good     ✅
-Sorting           █████████████░░░░░░░  Good     ✅
-Strings           ████████████░░░░░░░░  Moderate 🔄
-Greedy            ██████████░░░░░░░░░░  Moderate 🔄
-Dynamic Prog.     ████████░░░░░░░░░░░░  Learning 🎯
-Trees             █████░░░░░░░░░░░░░░░  Learning 🎯
-Graphs            ███░░░░░░░░░░░░░░░░░  Upcoming 🎯
-```
-
----
-
-
-## 🚀 Recent Solutions
-
-<!--START_SECTION:recent-solutions-->
-<!--END_SECTION:recent-solutions-->
-
----
-
-
-## 🎯 Roadmap & Goals
-
-- [x] 🎯 Start LeetCode Journey (March 2026)
-- [x] ✅ Solve 100+ Easy problems
-- [x] ✅ Solve 15+ Medium problems
-- [x] 🏆 Earn 50 Days Badge 2026
-- [x] 🔥 Maintain 70+ day streak
-- [ ] 📈 Solve 150+ Easy problems
-- [ ] 📈 Solve 50+ Medium problems
-- [ ] 🔴 Solve first Hard problem
-- [ ] 🧠 Master Dynamic Programming
-- [ ] 🚀 Reach 500+ total solved
-
----
-
-## 🚀 How to Use
+Example command (replace the path with the solution file you want to run):
 
 ```bash
-git clone https://github.com/Himesh-rupchandani/LEET-CODE.git
-cd LEET-CODE
-g++ -std=c++17 -o solution EASY/0001_Two_Sum.cpp
-./solution
+g++ -std=c++17 -Wall -Wextra -O2 path/to/solution.cpp -o solution
 ```
 
+On Windows PowerShell:
+
+```powershell
+g++ -std=c++17 -Wall -Wextra -O2 path/to/solution.cpp -o solution.exe
+.\solution.exe
+```
+
+Some LeetCode submissions use the platform-provided driver code. For those files, paste the solution into the LeetCode editor or add a small local test harness before compiling.
+
+## My approach
+
+1. Understand the constraints and edge cases.
+2. Start with a clear and correct approach.
+3. Improve time and space complexity when appropriate.
+4. Keep the implementation readable.
+
+## Connect
+
+- [LeetCode profile](https://leetcode.com/u/Himesh-rupchandani/)
+- [GitHub profile](https://github.com/Himesh-rupchandani)
+- [LinkedIn](https://www.linkedin.com/in/himesh-rupchandani-1049bb377/)
+
 ---
 
-## 🔗 Connect With Me
-
-<div align="center">
-
-[![LeetCode](https://img.shields.io/badge/LeetCode-Himesh--rupchandani-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/Himesh-rupchandani/)
-[![GitHub](https://img.shields.io/badge/GitHub-Himesh--rupchandani-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Himesh-rupchandani)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Himesh--rupchandani-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/himesh-rupchandani-1049bb377)
-
-</div>
-
----
-
-<div align="center">
-
-### ⭐ If this repo helped you, please STAR it!
-
-![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=Himesh-rupchandani.LEET-CODE)
-
-**Made with ❤️ and ☕ by Himesh Rupchandani**
-
-*Keep Solving. Keep Growing. 🚀*
-
-</div>
-
-
+*Consistency over intensity. Keep solving, keep learning.*
